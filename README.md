@@ -72,4 +72,4 @@ Rhythmix is licensed under the MIT License. See the LICENSE file for more inform
 **Get in Touch**
 ----------------
 
-If you have any questions or would like to get involved with Rhythmix, please contact us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or would like to get involved with Rhythmix, please contact us at [padhenchetan@gmail.com](mailto:padhenchetan@gmail.com).
