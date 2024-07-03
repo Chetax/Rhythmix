@@ -1,0 +1,23 @@
+.anim_gradient {
+  background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Override Ant Design Menu selected item background */
+.ant-menu-item-selected {
+  background-color: transparent !important;
+}
