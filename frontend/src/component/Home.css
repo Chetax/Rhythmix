@@ -1,5 +1,5 @@
 .anim_gradient {
-  background: linear-gradient(90deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
+  background: linear-gradient(180deg, hsla(277, 79%, 84%, 1) 0%, hsla(204, 95%, 77%, 1) 100%);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
 
@@ -20,4 +20,21 @@
 /* Override Ant Design Menu selected item background */
 .ant-menu-item-selected {
   background-color: transparent !important;
+}
+
+.transparent-input {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.glow-on-hover{
+  border: 1px solid #7a00ff;
+    border-radius:20px;
+  background:transparent;
+  padding:21px 10px;
+  margin:15px 0 ;
+  width:10em ;
+  display:flex;
+  justify-content:space-between
 }
