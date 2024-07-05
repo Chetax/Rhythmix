@@ -4,7 +4,8 @@ import img from './images.jpg'
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import { Layout, Menu, ConfigProvider } from 'antd';
 import { SearchOutlined,DownOutlined } from '@ant-design/icons';
-import { Button, Dropdown,Avatar  , Space } from 'antd';
+import { Button, Dropdown,Avatar  , Space,Row,Col } from 'antd';
+import TreadingSong from './ui/TreadingSongList';
 import Card from './ui/Card';
 const { Header, Content, Footer, Sider } = Layout;
 const items = [UserOutlined, VideoCameraOutlined, UploadOutlined, UserOutlined].map(
@@ -123,6 +124,20 @@ const App = () => {
 <Card/>
 <Card/>
   </div> 
+
+
+<Row>
+
+<Col span={12}>
+
+<h1>Trending</h1>
+
+<TreadingSong/>
+
+</Col>
+<Col span={12}></Col>
+
+</Row>
 
 
 

@@ -7,7 +7,7 @@ const App = () => (
  <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{width:"170px",}} />
  <div style={{textAlign:'center',margin:"10px 0"}}>
     <p style={{fontSize:'17px'}}>Coldplay</p>
-    <p>Are Of Music</p>
+    <p>Art Of Music</p>
  </div>
  </div>
  </>
